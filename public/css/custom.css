@@ -1,0 +1,28 @@
+#Tujuan{
+  text-align: center;
+}
+
+#Tujuan h2{
+  color: #1c4c5c;
+
+}
+
+#Tujuan .custom-container{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-areas: 
+    "a c"
+    ". c"
+    "b c";
+}
+
+#Tujuan .custom-container #para1{
+  grid-area: a;
+}
+#Tujuan .custom-container #para2{
+  grid-area: b;
+}
+#Tujuan .custom-container #photo{
+  grid-area: c;
+  margin: auto;
+}

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use App\Posisi;
 class PosisiSeeder extends Seeder
 {
     /**
