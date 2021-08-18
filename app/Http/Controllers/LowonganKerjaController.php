@@ -3,9 +3,18 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Posisi;
+Use DB;
 
 class LowonganKerjaController extends Controller
-{
+{   
+    public function __construct()
+    {
+        // $this->middleware('auth');
+        
+        // can be modify with some array to allow some page function without auth
+        $this->middleware('auth',['except'=>['index','show']]);
+    }
     /**
      * Display a listing of the resource.
      *
@@ -13,7 +22,8 @@ class LowonganKerjaController extends Controller
      */
     public function index()
     {
-        //
+        $posisiValue = Posisi::orderBy('department', 'asc')->get();
+        return view('posisi.index')->with('posisiValue', $posisiValue);
     }
 
     /**
@@ -23,7 +33,7 @@ class LowonganKerjaController extends Controller
      */
     public function create()
     {
-        //
+        return view('posisi.create');
     }
 
     /**
@@ -45,7 +55,8 @@ class LowonganKerjaController extends Controller
      */
     public function show($id)
     {
-        //
+        $forView = Posisi::find($id);
+        return view('posisi.show')->with('posisiAll', $forView);
     }
 
     /**

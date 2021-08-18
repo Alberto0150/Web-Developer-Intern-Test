@@ -17,7 +17,7 @@
                     <a class="nav-link" href="{{ route('home') }}#Tujuan">Tujuan Kami</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('home') }}">Lowongan Kerja</a>
+                    <a class="nav-link" href="{{ route('lokerview') }}">Lowongan Kerja</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Nilai-Nilai Kompas</a>

@@ -14,7 +14,17 @@ class CreatePosisisTable extends Migration
     public function up()
     {
         Schema::create('posisis', function (Blueprint $table) {
-            $table->id();
+            $table->engine = 'InnoDB';
+
+            $table->increments('posisi_id');
+            $table->mediumText('name');
+            $table->mediumText('department');
+            $table->mediumText('type_of_work');
+            $table->mediumText('location');
+            $table->date('date_open')->nullable();
+            $table->date('date_close')->nullable();
+            $table->longText('description')->nullable();
+            $table->longText('requirements')->nullable();
             $table->timestamps();
         });
     }
