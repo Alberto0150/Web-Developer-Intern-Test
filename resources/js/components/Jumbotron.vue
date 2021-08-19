@@ -1,12 +1,16 @@
 <template>
     <div>
+        
         <b-jumbotron header="Mari Berkarya Bagi Indonesia" lead="Berdedikasi sepenuh hati bersama kami">
-            <div class="search-wrapper">
-                <input type="text" v-model="searchString" placeholder="Cari judul pekerjaan..."/>
-            </div>
-            <ul>
-                <li v-for="result in results" :key="result.id">{{result.label}}</li>
-            </ul>
+            <a class="btn btn-primary btn-lg" href="/Lowongan-Kerja" role="button">Cari Pekerjaan!</a>
         </b-jumbotron>
     </div>
 </template>
+
+<style>
+.jumbotron{
+    margin:0 auto;
+    background-color: #356d97;
+    color: #f9c06e;
+}
+</style>

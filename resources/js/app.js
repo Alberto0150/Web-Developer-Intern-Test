@@ -1,5 +1,6 @@
 import Vue from 'vue'
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import { BootstrapVue, IconsPlugin, VBModal } from 'bootstrap-vue'
+import Countdown from 'vuejs-countdown'
 
 // Import Bootstrap an BootstrapVue CSS files (order is important)
 import 'bootstrap/dist/css/bootstrap.css'
@@ -33,7 +34,7 @@ window.Vue = require('vue');
 
 // Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('jumbotron-custom', require('./components/Jumbotron.vue').default);
-
+Vue.component('timer-posisi', require('./components/Timer.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

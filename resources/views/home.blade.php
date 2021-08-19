@@ -3,8 +3,10 @@
 @section('content')
 <div class="container">
     <jumbotron-custom></jumbotron-custom>
+    <br>
     <div id="Tujuan" >
-        <h2>Tujuan Kami</h2>
+        <h2><em>Tujuan Kami</em></h2>
+        
         <div class="custom-container">
             <div id="para1">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac laoreet felis. Duis non vestibulum est. Sed consectetur purus efficitur tellus vulputate, ultrices finibus risus consectetur. Vestibulum vel mi nec neque iaculis venenatis sit amet id elit. Suspendisse vel velit tempus, volutpat elit a, aliquam nulla. Proin cursus dapibus libero, ac blandit nulla consequat non. Nam a nunc id neque placerat tincidunt id at lacus. Praesent sit amet odio quis lorem accumsan blandit dignissim nec mauris. Nunc a lacus nunc. Curabitur semper iaculis sapien, dignissim scelerisque nibh consectetur consequat. Nunc lobortis lacus eu fringilla mollis.</p>

@@ -3,8 +3,7 @@
 }
 
 #Tujuan h2{
-  color: #1c4c5c;
-
+  color: #2974ae;
 }
 
 #Tujuan .custom-container{
@@ -25,4 +24,29 @@
 #Tujuan .custom-container #photo{
   grid-area: c;
   margin: auto;
+}
+
+.cut-width{
+  width: 95%;
+  margin: 0 auto;
+}
+hr.solid {
+  border-top: 1px solid #bbb;
+}
+
+.cut-width .custom-container-2{
+  display: flex;
+  flex-direction: row;
+}
+
+.cut-width .custom-container-2 #tag1{
+  width: 60%;
+}
+.cut-width .custom-container-2 #tag2{
+  width: 35%;
+  margin-left: 5%;
+}
+
+#posisi-index{
+  color: black;
 }

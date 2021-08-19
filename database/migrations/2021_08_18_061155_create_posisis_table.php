@@ -16,7 +16,7 @@ class CreatePosisisTable extends Migration
         Schema::create('posisis', function (Blueprint $table) {
             $table->engine = 'InnoDB';
 
-            $table->increments('posisi_id');
+            $table->increments('id');
             $table->mediumText('name');
             $table->mediumText('department');
             $table->mediumText('type_of_work');
