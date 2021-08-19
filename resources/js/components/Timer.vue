@@ -24,14 +24,8 @@ let interval = null;
 export default {
     name: 'vuejsCountDown',
     props: {
-        deadline: {
-            type: String
-        },
         end: {
             type: String
-        },
-        stop: {
-            type: Boolean
         }
     },
     data() {

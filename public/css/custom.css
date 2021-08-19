@@ -45,6 +45,8 @@ hr.solid {
 .cut-width .custom-container-2 #tag2{
   width: 35%;
   margin-left: 5%;
+  border-radius: 10%;
+  background-color: rgb(182, 182, 182);
 }
 
 #posisi-index{
