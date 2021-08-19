@@ -33,7 +33,7 @@ class LowonganKerjaController extends Controller
      */
     public function create()
     {
-        return view('posisi.create');
+        //
     }
 
     /**
@@ -56,7 +56,7 @@ class LowonganKerjaController extends Controller
     public function show($id)
     {
         $forView = Posisi::find($id);
-        return view('posisi.show')->with('posisiAll', $forView);
+        return view('posisi.show')->with('detailPosisi', $forView);
     }
 
     /**
