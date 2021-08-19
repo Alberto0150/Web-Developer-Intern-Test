@@ -12,8 +12,8 @@ class PosisiSeeder extends Seeder
     public function run()
     {
         //
-        // $path = base_path() . '/database/seeds/sql/Posisi_Seed.sql';
-        // $sql = file_get_contents($path);
-        // DB::unprepared($sql);
+        $path = base_path() . '/database/seeds/sql/Posisi_Seed.sql';
+        $sql = file_get_contents($path);
+        DB::unprepared($sql);
     }
 }

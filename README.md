@@ -1,9 +1,12 @@
-## Admin Login 
-1. Akses dengan menambahkan ```/login``` pada URL.
-2. Isi akses dengan:
+## To-Do
+1. Buat database bernama ```webdevinterntest```
+1. Akses Terminal
+2. Jalankan ```Composer install```, ```npm install && npm run dev```, ```php artisan key:generate```, dan ```php artisan migrate:fresh --seed```
+3. Jalankan ```php artisan serve```
+
+### Akses admin
+tambahkan ```/login``` pada URL
+Isi akses dengan:
 - email: admin@admin
 - password: admin123
 
-## Register Akun
-1. **Harus** sudah *Login* terlebih dahulu
-2. Akses dengan menambahkan ```/register``` pada URL.
